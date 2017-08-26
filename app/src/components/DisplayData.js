@@ -31,7 +31,8 @@ class DisplayData extends Component {
 function mapStateToProps(state) {
     console.log(state.products)
     return {
-        products: state.products.products
+        // products: state.products.products
+        products: state.products
     }
 }
 
